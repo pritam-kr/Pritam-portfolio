@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/pritam-kr/Pritam-portfolio/issues"
   },
-  "homepage": "https://github.com/pritam-kr/Pritam-portfolio#readme"
+  "homepage": "https://github.com/pritam-kr/Pritam-portfolio#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3"
+  }
 }
