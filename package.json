@@ -1,0 +1,23 @@
+{
+  "name": "pritam-portfolio",
+  "version": "1.0.0",
+  "description": "I'm working on my porfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pritam-kr/Pritam-portfolio.git"
+  },
+  "keywords": [
+    "developer",
+    "portfolio"
+  ],
+  "author": "Pritam Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pritam-kr/Pritam-portfolio/issues"
+  },
+  "homepage": "https://github.com/pritam-kr/Pritam-portfolio#readme"
+}
