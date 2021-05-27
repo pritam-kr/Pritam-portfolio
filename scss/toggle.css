@@ -23,7 +23,10 @@
     font-size: 1.1rem;
   }
   .profile-container {
-    padding: 0;
+    padding: 0 20px;
+  }
+  .profile-container header {
+    margin-top: 0px;
   }
 }
 /*# sourceMappingURL=toggle.css.map */
