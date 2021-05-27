@@ -1,0 +1,28 @@
+.profile-container .mobile-nav{
+    
+   display: none;
+}
+.profile-container header{
+    margin-top: 20px;
+}
+@media(max-width: 990px){
+    .profile-container #page-section, footer, .desktop-nav{
+        display: none;
+    }
+    .profile-container .mobile-nav{
+        display: block;
+        text-align: right;
+        padding: 14px;
+    }
+    .profile-container .mobile-nav button{
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        outline: 0;
+        font-size: 1.1rem;
+    }
+    .profile-container{
+        padding: 0;
+    }
+    
+}

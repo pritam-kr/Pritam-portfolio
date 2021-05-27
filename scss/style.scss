@@ -85,13 +85,13 @@ nav{
     grid-template-rows: auto;
 }
 .profile-container{
-    padding: 10px 15px;
+    padding: 30px 0px;
     text-align: center;
     height: 100%;
     width: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     // position: fixed;
     border-right: 0.5px solid $border-color;
 }
@@ -130,7 +130,7 @@ header .img-pritam{
     width: 100%;
     overflow-y: scroll;
 }
-.info-container nav{
+.info-container .desktop-nav{
     // border-bottom: 0.5px solid $border-color;
     padding: 15px;
     position: sticky; 
@@ -213,6 +213,7 @@ h1{
     display: grid;
     grid-template-columns: repeat(3, 310px);
     grid-gap: 10px;
+    justify-content: center;
 }
 .tabcontent .projetc-card img{
     display: block;
@@ -222,7 +223,7 @@ h1{
 }
 .projetc-card{
     position: relative;
-    width: 50%;
+    width: 100%;
     cursor: pointer;
 }
 .projetc-card .project_name{
@@ -236,7 +237,7 @@ h1{
         left: 0;
         right: 0;
         height: 100%;
-        width: 310px;
+        width: 100%;
         opacity: 0;
         transition: .5s ease;
         background-color: $link-color;
@@ -320,4 +321,21 @@ h1{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
+    .quote-container{
+        width: 100%;
+    }
+    .tabcontent .project-row, .reppo-row{
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        justify-content: center;
+    }
+    .reppo-row .reppo-card{
+        width: 100%;
+    }
+    .tabcontent .projetc-card img{
+        width: 100%;
+    }
+    
 }

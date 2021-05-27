@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,17 +8,21 @@
     <meta name="author" content="Pritam Kumar" />
     <!--External CSS-->
     <link rel="stylesheet" href="scss/style.css" />
+    <link rel="stylesheet" href="scss/toggle.css">
     <!-- <link rel="stylesheet" href="scss/project.css"> -->
     <!--Fontawesome external link-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <title>Pritam Kumar | Self tagught developer</title>
 
 </head>
 
 <body>
     <section class="hero-container">
+
         <div class="profile-container">
-            <header class="common-margin">
+            <div class="mobile-nav"><button><i class="fas fa-bars"></i></button></div>
+            <header>
                 <img src="/images/profile-img.jfif" class="img-pritam" />
                 <h2>Pritam Kumar</h2>
                 <h5>Web developer</h5>
@@ -30,13 +35,14 @@
                             UX, Materialize
                         </li>
                         <li class="social-icon"> <i class="fab fa-linkedin-in"></i>
-                        <i class="fab fa-github"></i> <i class="fab fa-twitter"></i></li>
+                            <i class="fab fa-github"></i> <i class="fab fa-twitter"></i>
+                        </li>
                     </ul>
                 </section>
 
             </header>
 
-            <section id="page-section" >
+            <section id="page-section">
                 <ul>
                     <li><a href="#" class="links">Blog</a></li>
                     <li><a href="#" class="links">Resources</a></li>
@@ -44,102 +50,114 @@
                     <li><a href="#" class="links">Contact</a></li>
                 </ul>
             </section>
-               
-            <footer>
+
+            <footer id="footer-section">
                 <p class="copyright paragraph-font-size"> &#169; <span class="year"></span></p>
             </footer>
-            </ul>
+
         </div>
+
         <div class="info-container">
-          <nav class="nav">
+            <nav class="desktop-nav">
                 <span id="toggle">🌙</span>
-          </nav>
+            </nav>
 
-          <div class="quote-container">
-              <header>
-                  <h1>Hey! I'm Pritam,<br> A self taught developer.</h1>
-                  <p class="paragraph-font-size">Worked as a wordPress developer | Still learning web developemt | Instructor at YouTube | Design things according to me | I do tweets about web developemt | Try to be a good son  </p>
-              </header>
+            <div class="quote-container">
+                <header>
+                    <h1>Hey! I'm Pritam,<br> A self taught developer.</h1>
+                    <p class="paragraph-font-size">Worked as a wordPress developer | Still learning web developemt |
+                        Instructor at YouTube | Design things according to me | I do tweets about web developemt | Try
+                        to be a good son </p>
+                </header>
 
-              <div class="section-tab">
-                <div class="btn-container">
-                    <ul>
-                        <li><button class="btn-links" onclick="OpenTabContent(event, 'info')"
-                                id="defaultOpen">About</button></li>
-                        <li><button class="btn-links" onclick="OpenTabContent(event, 'project')">Projetcs</button></li>
-                        <li><button class="btn-links" onclick="OpenTabContent(event, 'repo')">Repository</button></li>
-                        <li><button class="btn-links" onclick="OpenTabContent(event, 'blog')">Blog</button></li>
-                    </ul>
-                </div>
+                <div class="section-tab">
+                    <div class="btn-container">
+                        <ul>
+                            <li><button class="btn-links" onclick="OpenTabContent(event, 'info')"
+                                    id="defaultOpen">About</button></li>
+                            <li><button class="btn-links" onclick="OpenTabContent(event, 'project')">Projetcs</button>
+                            </li>
+                            <li><button class="btn-links" onclick="OpenTabContent(event, 'repo')">Repository</button>
+                            </li>
+                            <li><button class="btn-links" onclick="OpenTabContent(event, 'blog')">Blog</button></li>
+                        </ul>
+                    </div>
 
-                <div class="tabcontent" id="info">
-                    <!-- <h5 class="content-heading">Front-end and wordpress developer <i class="fas fa-info-circle"></i>
+                    <div class="tabcontent" id="info">
+                        <!-- <h5 class="content-heading">Front-end and wordpress developer <i class="fas fa-info-circle"></i>
                     </h5> -->
-                    <p class="content-paragraph paragraph-font-size">Hello! My name is Pritam Kumar, I'm a front-end developer, and I specialize in HTML, CSS, JavaScript, WordPress, php, MySQL, etc. I was born on 30 September 1998, raised in Hazaribagh (Jharkhand). and I'm a recent graduate with B.sc ( Physics ), from VBU (Vinoba Bhave University, Hazaribagh). I worked as a WordPress developer at BinaryInc in 2020. Currently, I'm 22 years old Self-taught developer and learning web development.</p>
+                        <p class="content-paragraph paragraph-font-size">Hello! My name is Pritam Kumar, I'm a front-end
+                            developer, and I specialize in HTML, CSS, JavaScript, WordPress, php, MySQL, etc. I was born
+                            on 30 September 1998, raised in Hazaribagh (Jharkhand). and I'm a recent graduate with B.sc
+                            ( Physics ), from VBU (Vinoba Bhave University, Hazaribagh). I worked as a WordPress
+                            developer at BinaryInc in 2020. Currently, I'm 22 years old Self-taught developer and
+                            learning web development.</p>
 
-                    <br>
-                    <p class="content-paragraph paragraph-font-size"> <i class="fas fa-caret-right"></i> Recently in February 2021 I've been selected for GSSOC ’21 ( GirlScript Summer of Code )</p>
-                    <p class="content-paragraph paragraph-font-size"><i class="fas fa-caret-right"></i> Also in March 2021, I have been selected for an internship program by The Sparks foundation and have completed two tasks, one is Basics Banking System and the other is Simple Payment Integration, and happy to share that I have received my completion certificate in web development.</p>
-                    <p class="content-paragraph paragraph-font-size"><i class="fas fa-caret-right"></i> Here are few technologies I've been working with recently:</p>
-                    
-                    <ul class="teck">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
-                    <ul class="teck">
-                        <li>JavaScript</li>
-                        <li>Sass</li>
-                    </ul>
-                    <ul class="teck">
-                        <li>Bootstrap</li>
-                        <li>API</li>
-                    </ul>
-                    <ul class="teck">
-                        <li>NodeJS</li>
-                        <li>JSON</li>
-                    </ul>
-                    <p class="content-paragraph paragraph-font-size"><i class="fas fa-caret-right"></i> My main focus is in the upcoming months to get a job, want to grow my youTube channel, and build a resources website for newbies.and I love coding if it works 🤪</p>
-                    <ul>
-                        <li>
-                            <p class="skill-name"><i class="fas fa-caret-right"></i> Phone: +91 0123456789 </p>
-                        </li>
-                        <li>
-                            <p class="skill-name"> <i class="fas fa-caret-right"></i> Website: www.binaryinc.in</p>
-                        </li>
-                        <li>
-                            <p class="skill-name"> <i class="fas fa-caret-right"></i> Business mail: pritam@binaryinc.in</p>
-                        </li>
-                    </ul>
+                        <br>
+                        <p class="content-paragraph paragraph-font-size"> <i class="fas fa-caret-right"></i> Recently in
+                            February 2021 I've been selected for GSSOC ’21 ( GirlScript Summer of Code )</p>
+                        <p class="content-paragraph paragraph-font-size"><i class="fas fa-caret-right"></i> Also in
+                            March 2021, I have been selected for an internship program by The Sparks foundation and have
+                            completed two tasks, one is Basics Banking System and the other is Simple Payment
+                            Integration, and happy to share that I have received my completion certificate in web
+                            development.</p>
+                        <p class="content-paragraph paragraph-font-size"><i class="fas fa-caret-right"></i> Here are few
+                            technologies I've been working with recently:</p>
 
-                </div>
+                        <ul class="teck">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                        <ul class="teck">
+                            <li>JavaScript</li>
+                            <li>Sass</li>
+                        </ul>
+                        <ul class="teck">
+                            <li>Bootstrap</li>
+                            <li>API</li>
+                        </ul>
+                        <ul class="teck">
+                            <li>NodeJS</li>
+                            <li>JSON</li>
+                        </ul>
+                        <p class="content-paragraph paragraph-font-size"><i class="fas fa-caret-right"></i> My main
+                            focus is in the upcoming months to get a job, want to grow my youTube channel, and build a
+                            resources website for newbies.and I love coding if it works 🤪</p>
+                        <ul>
+                            <li>
+                                <p class="skill-name"><i class="fas fa-caret-right"></i> Phone: +91 0123456789 </p>
+                            </li>
+                            <li>
+                                <p class="skill-name"> <i class="fas fa-caret-right"></i> Website: www.binaryinc.in</p>
+                            </li>
+                            <li>
+                                <p class="skill-name"> <i class="fas fa-caret-right"></i> Business mail:
+                                    pritam@binaryinc.in</p>
+                            </li>
+                        </ul>
 
-                <div class="tabcontent" id="project">
-                    <div class="project-row">
-                        
                     </div>
-                </div>
 
-                <div class="tabcontent" id="repo">
-                    <div class="reppo-row">
-                    
+                    <div class="tabcontent" id="project">
+                        <div class="project-row">
+
+                        </div>
                     </div>
-                </div>
 
-                <div class="tabcontent" id="blog">
-                    
+                    <div class="tabcontent" id="repo">
+                        <div class="reppo-row">
+
+                        </div>
+                    </div>
+
+                    <div class="tabcontent" id="blog">
+
+                    </div>
                 </div>
             </div>
         </div>
-
-        </div>
-
-
-
     </section>
-          </div>
-        </div>
-    </section>
-
+    
     <!--JavaScript extrenal link-->
     <script src="script/app.js"></script>
     <script src="script/tab.js"></script>
