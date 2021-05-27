@@ -426,4 +426,24 @@ h1 {
     color: #fff;
   }
 }
+
+@media (max-width: 1250px) {
+  .tabcontent .project-row, .reppo-row {
+    margin: 15px 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .reppo-row .reppo-card {
+    width: 100%;
+  }
+  .tabcontent .projetc-card img {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */

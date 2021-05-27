@@ -372,3 +372,19 @@ h1{
     }
     //btn-container end
 }
+
+@media(max-width: 1250px){
+    .tabcontent .project-row, .reppo-row{
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        justify-content: center;
+    }
+    .reppo-row .reppo-card{
+        width: 100%;
+    }
+    .tabcontent .projetc-card img{
+        width: 100%;
+    }
+}
