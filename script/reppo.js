@@ -1,4 +1,4 @@
-const reppositoryUrl = 'https://api.github.com/users/pritamkr1/repos?page=1';
+const reppositoryUrl = 'https://api.github.com/users/pritam-kr/repos?page=1';
 
 window.addEventListener('load', (el) => {
     fetch(reppositoryUrl)
