@@ -10,10 +10,35 @@
   .profile-container #page-section, footer, .desktop-nav {
     display: none;
   }
-  .profile-container .mobile-navul {
+  .profile-container .mobile-nav {
     display: block;
     text-align: right;
-    padding: 14px;
+  }
+  .profile-container .mobile-navul {
+    display: none;
+    width: 100%;
+  }
+  .profile-container .mobile-navul li a {
+    text-decoration: none;
+    color: #9CA3AF;
+  }
+  .mobile-navul.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 15px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
   }
   .profile-container .mobile-nav button {
     cursor: pointer;
@@ -26,7 +51,7 @@
     padding: 15px 20px;
   }
   .profile-container header {
-    margin-top: 10px 0;
+    margin-top: 0px;
   }
 }
 /*# sourceMappingURL=toggle.css.map */

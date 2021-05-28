@@ -40,7 +40,7 @@ const myAllProjects = [{
 },
 { 
     projectName: "Front-end mentor challenge",
-    projectImg: "./images/6.png",
+    projectImg: "#",
     gitHubLink: "#",
     liveLink: "https://social-proof-section-master-github-io.vercel.app/",
 
