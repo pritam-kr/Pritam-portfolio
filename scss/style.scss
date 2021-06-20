@@ -193,7 +193,8 @@ h1{
     color: #fff;
     background-color: $link-color;
     font-weight: 500;
-    letter-spacing: 0.101rem;
+    letter-spacing: 0.0111rem;
+    font-family: $headings;
 }
 .tabcontent{
     height: 100%;
@@ -221,7 +222,7 @@ h1{
     
 }
 .tabcontent i {
-    color: #48B8A4;
+    color: #fff;
     font-size: 1.1rem;
 }
 .tabcontent .project-row, .reppo-row{
@@ -274,6 +275,11 @@ h1{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.tabcontent .overlay-content i{
+    color: #fff !important;
+    margin-top: 15px;
+    padding: 0 5px;
 }
 //reppo-row start
 .reppo-row a{

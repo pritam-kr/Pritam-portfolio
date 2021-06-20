@@ -39,10 +39,10 @@ const myAllProjects = [{
 
 },
 { 
-    projectName: "Front-end mentor challenge",
-    projectImg: "#",
-    gitHubLink: "#",
-    liveLink: "https://social-proof-section-master-github-io.vercel.app/",
+    projectName: "Github profile viewer",
+    projectImg: "./images/7.png",
+    gitHubLink: "https://github.com/pritam-kr/Github-profile",
+    liveLink: "https://determined-meninsky-dbca89.netlify.app/index.html",
 
 }]
 
