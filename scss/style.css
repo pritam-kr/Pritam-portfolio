@@ -30,7 +30,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: ui-sans-serif, system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Inter, sans-serif;
   font-weight: 700;
 }
 
@@ -61,7 +61,7 @@ body {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  background-color: #0F171D;
+  background-color: #fff;
   color: #fff;
 }
 
@@ -87,7 +87,7 @@ nav {
 }
 
 .profile-container {
-  padding: 30px 0px;
+  padding: 10px 10px 10px 10px;
   text-align: center;
   height: 100%;
   width: auto;
@@ -101,7 +101,11 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-right: 0.5px solid rgba(255, 255, 255, 0.123);
+  border-right: 0.5px solid rgba(119, 117, 117, 0.123);
+}
+
+.profile-container header h2, h5 {
+  color: #0F171D;
 }
 
 .profile-container #page-section .links {
@@ -147,19 +151,19 @@ header .img-pritam {
 }
 
 .info-container .desktop-nav {
-  padding: 15px;
+  padding: 15px 15px 0 15px;
   position: -webkit-sticky;
   position: sticky;
   text-align: right;
 }
 
 .quote-container {
-  padding: 15px 20px;
-  width: 90%;
+  padding: 0px 20px 15px 20px;
+  width: 100%;
 }
 
 .quote-container header {
-  margin: 0  20px;
+  margin: 0  0px;
 }
 
 .quote-container header h1 {
@@ -167,19 +171,21 @@ header .img-pritam {
   text-align: left;
   font-weight: 700;
   margin: 0;
+  color: #0F171D;
 }
 
 h1 {
-  font-family: ui-sans-serif, system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Inter, sans-serif;
   font-weight: 700;
 }
 
 .section-tab {
   padding: 15px 10px;
-  background-color: #16212998;
+  background-color: #fff;
   border-radius: 10px;
   margin: 15px 0;
   width: auto;
+  border: 0.5px solid rgba(119, 117, 117, 0.123);
 }
 
 .section-tab ul li {
@@ -189,16 +195,20 @@ h1 {
 
 .btn-container {
   width: 100%;
-  border-bottom: 1px solid rgba(15, 15, 15, 0.068);
 }
 
 .section-tab .btn-links {
   border: none;
   cursor: pointer;
-  width: auto;
   height: auto;
-  padding: 10px 25px;
+  padding: 13px 25px;
   outline: 0;
+  text-align: center;
+  width: 150px;
+  color: #fff;
+  background-color: #459DF8;
+  font-weight: 500;
+  letter-spacing: 0.101rem;
 }
 
 .tabcontent {
@@ -300,7 +310,7 @@ h1 {
 .reppo-row .reppo-card h4 {
   padding: 0;
   margin: 0;
-  font-family: ui-sans-serif, system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  font-family: Inter, sans-serif !important;
   font-weight: 400 !important;
   color: #459DF8 !important;
   font-size: 1.1rem;
@@ -311,7 +321,7 @@ h1 {
 }
 
 .reppo-row .reppo-card {
-  border: 0.5px solid rgba(255, 255, 255, 0.123);
+  border: 0.5px solid rgba(119, 117, 117, 0.123);
   width: 310px;
   border-radius: 5px;
   padding: 8px;
