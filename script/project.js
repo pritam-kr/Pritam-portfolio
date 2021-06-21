@@ -23,6 +23,20 @@ const myAllProjects = [{
     gitHubLink: "https://github.com/pritam-kr/Github-profile",
     liveLink: "https://determined-meninsky-dbca89.netlify.app/index.html",
 
+},
+{ 
+    projectName: "Covid tracker",
+    projectImg: "./images/covid.png",
+    gitHubLink: "https://github.com/pritamkr1/covid",
+    liveLink: "https://covid-pritam.vercel.app/",
+
+},
+{ 
+    projectName: "Basic banking system",
+    projectImg: "./images/bank.png",
+    gitHubLink: "https://github.com/pritamkr1/Basic-banking-system",
+    liveLink: "https://pritam-kumar.herokuapp.com/",
+
 }]
 
 window.addEventListener('load', (element) => {

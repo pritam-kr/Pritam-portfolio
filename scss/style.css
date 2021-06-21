@@ -344,6 +344,8 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-shadow: 0 4.5px 3.6px rgba(0, 0, 0, 0.017);
+          box-shadow: 0 4.5px 3.6px rgba(0, 0, 0, 0.017);
 }
 
 .reppo-row .reppo-card ul li {
