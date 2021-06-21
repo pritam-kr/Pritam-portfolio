@@ -1,46 +1,25 @@
 const myAllProjects = [{ 
-    projectName: "Digital clock",
+    projectName: "List search",
     projectImg: "./images/listting.png",
     gitHubLink: "https://github.com/pritamkr1/myclock",
-    liveLink: "https://myclock.vercel.app/",
+    liveLink: "https://search-result.vercel.app/",
 },
 { 
-    projectName: "Front-end mentor challenge",
-    projectImg: "./images/1.png",
-    gitHubLink: "#",
-    liveLink: "https://box-github-io.vercel.app/",
+    projectName: "Twitter layout",
+    projectImg: "./images/8.png",
+    gitHubLink: "https://github.com/pritamkr1/twitter",
+    liveLink: "https://twitter-psi.vercel.app/",
 },
 { 
-    projectName: "Front-end mentor challenge",
-    projectImg: "./images/2.png",
-    gitHubLink: "#",
-    liveLink: "https://social-proof-section-master-github-io.vercel.app/",
-
-},
-{ 
-    projectName: "Front-end mentor challenge",
-    projectImg: "./images/3.png",
-    gitHubLink: "#",
-    liveLink: "https://social-proof-section-master-github-io.vercel.app/",
-    
-},
-{ 
-    projectName: "Front-end mentor challenge",
-    projectImg: "./images/4.png",
-    gitHubLink: "#",
-    liveLink: "https://social-proof-section-master-github-io.vercel.app/",
-
-},
-{ 
-    projectName: "Front-end mentor challenge",
-    projectImg: "./images/5.png",
-    gitHubLink: "#",
-    liveLink: "https://social-proof-section-master-github-io.vercel.app/",
+    projectName: "Basic payment integration",
+    projectImg: "./images/payment.png",
+    gitHubLink: "https://github.com/pritamkr1/payment-gateway",
+    liveLink: "https://payment-gateway-liard.vercel.app/",
 
 },
 { 
     projectName: "Github profile viewer",
-    projectImg: "./images/7.png",
+    projectImg: "./images/github.png",
     gitHubLink: "https://github.com/pritam-kr/Github-profile",
     liveLink: "https://determined-meninsky-dbca89.netlify.app/index.html",
 
