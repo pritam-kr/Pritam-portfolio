@@ -5,7 +5,7 @@ desktopPages.forEach((page) => {
     desktopEachPages = `
 
     <ul>
-        <li><a href="https://pritam-cv.vercel.app/" target=""_blank" class="links">CV</a></li>
+        <li><a href="https://pritam-cv.vercel.app/" target="_blank" class="links">CV</a></li>
         <li><a href="#" class="links">Blog</a></li>
         <li><a href="#" class="links">Resources</a></li>
         <li><a href="https://www.youtube.com/channel/UC7LfgvNkDe5LoQiwExMn0EA" target="_blank" class="links">Video</a></li>
