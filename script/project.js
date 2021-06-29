@@ -37,6 +37,13 @@ const myAllProjects = [{
     gitHubLink: "https://github.com/pritamkr1/Basic-banking-system",
     liveLink: "https://pritam-kumar.herokuapp.com/",
 
+},
+{ 
+    projectName: "Github profile card",
+    projectImg: "./images/github-profile-card.png",
+    gitHubLink: "https://github.com/pritam-kr/github-profile-card",
+    liveLink: "https://github-profile-card-by-pritam.netlify.app/",
+
 }]
 
 window.addEventListener('load', (element) => {
