@@ -51,6 +51,13 @@ const myAllProjects = [{
     gitHubLink: "https://github.com/pritam-kr/Simple-movie-app",
     liveLink: "https://simple-movie-app-code-by-pritam.netlify.app/",
 
+},
+{ 
+    projectName: "BinaryInc.",
+    projectImg: "./images/binaryinc.png",
+    gitHubLink: "#",
+    liveLink: "https://binary-inc-githbu-io.vercel.app/index.html",
+
 }]
 
 window.addEventListener('load', (element) => {
